@@ -14,7 +14,7 @@
             "icon": "🧀",
             "title": "Adding the Toppings",
             "description": "Contractions are starting, but we’re not quite ready yet.",
-            "completed": true
+            "completed": false
         },
         {
             "id": "stage3",

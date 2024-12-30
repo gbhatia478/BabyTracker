@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Inline JSON data
     const data = {
-        "currentStage": 2,
+        "currentStage": 1,
         "stages": [
             {
                 "id": "stage1",
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 "icon": "🧀",
                 "title": "Adding the Toppings",
                 "description": "Contractions are starting, but we’re not quite ready yet.",
-                "completed": true
+                "completed": false
             },
             {
                 "id": "stage3",

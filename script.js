@@ -4,14 +4,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Inline JSON data
     const data = {
-        "currentStage": 1,
+        "currentStage": 0,
         "stages": [
             {
                 "id": "stage1",
                 "icon": "🥖",
                 "title": "Preparing the Dough",
                 "description": "Getting ready for labor—final touches being made!",
-                "completed": true
+                "completed": false
             },
             {
                 "id": "stage2",

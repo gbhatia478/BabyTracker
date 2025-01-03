@@ -4,42 +4,42 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Inline JSON data
     const data = {
-        "currentStage": 0,
+        "currentStage": 5,
         "stages": [
             {
                 "id": "stage1",
                 "icon": "🥖",
                 "title": "Preparing the Dough",
                 "description": "Getting ready for labor—final touches being made!",
-                "completed": false
+                "completed": true
             },
             {
                 "id": "stage2",
                 "icon": "🧀",
                 "title": "Adding the Toppings",
                 "description": "Contractions are starting, but we’re not quite ready yet.",
-                "completed": false
+                "completed": true
             },
             {
                 "id": "stage3",
                 "icon": "🔥",
                 "title": "In the Oven",
                 "description": "Things are heating up—active labor is underway!",
-                "completed": false
+                "completed": true 
             },
             {
                 "id": "stage4",
                 "icon": "🚗",
                 "title": "Out for Delivery",
                 "description": "We’re heading to the hospital. Almost there!",
-                "completed": false
+                "completed": true
             },
             {
                 "id": "stage5",
                 "icon": "🎉",
                 "title": "Delivered!",
                 "description": "Baby is here! Welcome to the world, little one.",
-                "completed": false
+                "completed": true
             }
         ]
     };
